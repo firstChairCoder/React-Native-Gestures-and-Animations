@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "plugins": [
+        "import"
+    ],
+    "root": true,
+    "extends": 
+        "react-native-wcandillon",
+    "parserOptions": { "project": ["./tsconfig.json"],
+        
+    "requireConfigFile": false
+        },
+    "rules": {
+        "react/no-array-index-key": 0,
+        "import/no-default-export": "off",
+        "import/extensions": "off",
+        "@typescript-eslint/no-non-null-assertion": "off",
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
+    }
+}
