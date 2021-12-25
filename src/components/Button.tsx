@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 15,
-    fontFamily: "Roboto-Medium",
+    fontFamily: "Montserrat-Medium",
     textAlign: "center",
   },
 });
@@ -26,7 +26,7 @@ interface ButtonProps {
 const Button = ({ variant, label, onPress }: ButtonProps) => {
   const backgroundColor =
     variant === "primary" ? "#2CB9B0" : "rgba(12, 13, 52, 0.05)";
-  const color = variant === "primary" ? "#FFF" : "#0C0D34";
+  const color = variant === "primary" ? "white" : "#0C0D34";
   return (
     <RectButton
       style={[styles.container, { backgroundColor }]}

@@ -8,23 +8,22 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    padding: 44,
+    padding: 20,
   },
   subtitle: {
-    fontFamily: "Roboto-Medium",
-    fontSize: 24,
-    lineHeight: 30,
     marginBottom: 12,
+    fontFamily: "Montserrat-Medium",
+    fontSize: 24,
     color: "#0C0D34",
     textAlign: "center",
   },
   description: {
-    fontFamily: "Roboto-Regular",
+    marginBottom: 12,
+    fontFamily: "Montserrat-Regular",
     fontSize: 16,
     lineHeight: 24,
     color: "#0C0D34",
     textAlign: "center",
-    marginBottom: 40,
   },
 });
 

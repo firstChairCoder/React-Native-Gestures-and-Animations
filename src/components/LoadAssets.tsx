@@ -8,9 +8,7 @@ import type { InitialState } from "@react-navigation/native";
 import { NavigationContainer } from "@react-navigation/native";
 import Constants from "expo-constants";
 
-const NAVIGATION_STATE_KEY = `NAVIGATION_STATE_KEY-${
-  Constants.manifest!.sdkVersion
-}`;
+const NAVIGATION_STATE_KEY = `NAVIGATION_STATE_KEY-${Constants.manifest?.sdkVersion}`;
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 export type FontSource = Parameters<typeof Font.loadAsync>[0];
