@@ -6,7 +6,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "lint": "eslint --ext --color .ts,.tsx . --max-warnings 0",
+    "lint": "eslint --ext .ts,.tsx . --max-warnings 0",
     "tsc": "tsc",
     "ci": "yarn lint && yarn tsc"
   },
@@ -20,7 +20,7 @@
     "@react-navigation/stack": "^6.0.11",
     "@typescript-eslint/eslint-plugin": "^5.6.0",
     "@use-expo/font": "^2.0.0",
-    "eslint": "^8.4.1",
+    "eslint": "^8.4.1", 
     "eslint-config-airbnb": "^19.0.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "7.27.1",
@@ -37,7 +37,7 @@
     "react-native": "0.64.3",
     "react-native-gesture-handler": "1.6.0",
     "react-native-reanimated": "1.7.0",
-    "react-native-redash": "14.1.1",
+    "react-native-redash": "14.2.1",
     "react-native-safe-area-context": "3.3.2",
     "react-native-screens": "~3.8.0",
     "react-native-web": "0.17.1"
