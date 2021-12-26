@@ -107,7 +107,7 @@ const Onboarding = () => {
           style={{ ...StyleSheet.absoluteFillObject, backgroundColor }}
         />
 
-        <Animated.View style={[styles.footerContent]}>
+        <Animated.View style={styles.footerContent}>
           <View style={styles.pagination}>
             {slides.map((_, index) => (
               <Dot
