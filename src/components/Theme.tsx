@@ -5,9 +5,12 @@ const theme = {
   colors: {
     primary: "#2CB9B0",
     secondary: "#0C0D34",
+    danger: "#FF0058",
     body: "rgba(12, 13, 52, 0.05)",
     text: "rgba(12, 13, 52, 0.7)",
     white: "white",
+    gray: "#F4F0EF",
+    darkGray: "#8A8D90",
   },
   spacing: {
     s: 8,

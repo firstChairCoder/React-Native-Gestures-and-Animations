@@ -4,7 +4,7 @@ import React from "react";
 import Svg, { Path } from "react-native-svg";
 
 import theme, { Box } from "./Theme";
-const SIZE = theme.borderRadii.l * 2;
+const SIZE = theme.borderRadii.l * 1.5;
 
 interface SocialIconProps {
   children: ReactNode;
