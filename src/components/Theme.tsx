@@ -52,7 +52,7 @@ const theme = {
     },
     button: {
       fontSize: 15,
-      fontFamily: "Montserrat-Medium",
+      fontFamily: "Montserrat-Regular",
       textAlign: "center",
     },
   },

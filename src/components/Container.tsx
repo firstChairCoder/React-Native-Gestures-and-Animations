@@ -13,8 +13,8 @@ interface ContainerProps {
 export const assets = [require("../assets/pattern1.png")];
 
 const window = Dimensions.get("window");
-const width = (window.width * window.scale) / 2;
-const aspectRatio = 1023 / 1535 / 1.25;
+const width = (window.width * window.scale) / window.scale;
+const aspectRatio = 1023 / 1535;
 const height = width * aspectRatio;
 
 const Container = ({ children, footer }: ContainerProps) => {
@@ -61,7 +61,7 @@ const Container = ({ children, footer }: ContainerProps) => {
       </Box>
       <Box backgroundColor={"secondary"} paddingTop={"m"}>
         {footer}
-        <Box height={Math.max(insets.bottom, 16)} />
+        <Box height={insets.bottom} />
       </Box>
     </Box>
   );
