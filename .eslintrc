@@ -2,6 +2,24 @@
   "extends": "react-native-wcandillon",
   "rules": {
     "import/no-default-export": "off",
+    "quotes": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "comma-dangle": "off",
+    "sort-imports": 
+    ["error", {
+      "ignoreCase": true,
+      "ignoreDeclarationSort": true
+    }],
+    "import/order": [
+      1,
+      {
+        "groups": [
+          "builtin", "external", "internal",
+          ["parent", "sibling", "index"]
+        ],
+        "newlines-between": "always"
+      }
+    ],
     "prettier/prettier": [
       "error",
       {
