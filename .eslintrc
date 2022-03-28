@@ -1,8 +1,10 @@
 {
   "extends": "react-native-wcandillon",
+  "plugins": ["import", "prettier"],
   "rules": {
     "import/no-default-export": "off",
     "quotes": "off",
+    "prefer-arrow-callback": "off",
     "react-hooks/exhaustive-deps": "off",
     "comma-dangle": "off",
     "sort-imports": 
