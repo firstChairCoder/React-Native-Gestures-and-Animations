@@ -11,7 +11,7 @@ In this video, the basic template for the app was set. The following things were
 
 ### (End of video) Screenshot:
 
-![ Android screenshot ](https://github.com/firstChairCoder/React-Native-Gestures-and-Animations/blob/01_boilerplate/static/01_boilerplate.png)
+![ Android screenshot ](https://github.com/firstChairCoder/React-Native-Gestures-and-Animations/blob/01_boilerplate/_static/01_boilerplate.png)
 
 ### Notes:
 1. It should be noted that at the time of William's recording, the Expo version he used was SDK38. Now, at the time of creating this, Expo has as its stable release SDK44 with a beta preview of SDK45 recently released. Some breaking changes are to be expected, but not overly so. Also, the React Native version used in the video is v0.62.
