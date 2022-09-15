@@ -22,7 +22,7 @@ interface ButtonProps {
   onPress: () => void;
 }
 
-const Button = ({ variant, label, onPress }: ButtonProps) => {
+const Button = ({ variant = "default", label, onPress }: ButtonProps) => {
   const backgroundColor =
     variant === "primary" ? "#2CB9B0" : "rgba(12, 13, 52, 0.05)";
   const color = variant === "primary" ? "#FFF" : "#0C0D34";
@@ -35,7 +35,5 @@ const Button = ({ variant, label, onPress }: ButtonProps) => {
     </RectButton>
   );
 };
-
-Button.defaultProps = { variant: "default" };
 
 export default Button;

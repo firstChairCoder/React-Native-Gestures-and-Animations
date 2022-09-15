@@ -15,7 +15,6 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   titleContainer: {
-    // backgroundColor: "red",
     height: 100,
     justifyContent: "center",
   },

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import React, { useRef } from "react";
 import { Dimensions, StyleSheet, View } from "react-native";
 import Animated, { multiply } from "react-native-reanimated";
@@ -69,6 +68,7 @@ const Onboarding = () => {
     inputRange: slides.map((_, i) => i * width),
     outputRange: slides.map((slide) => slide.color),
   }) as any; //https://github.com/wcandillon/react-native-redash/issues/307#issuecomment-827442320
+
   return (
     <View style={styles.container}>
       <Animated.View style={[styles.slider, { backgroundColor }]}>
